@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h2>TODOLIST</h2>
+    </div>
+  </header>
+
+  <main>
+
+   <div class="container">
+     <h1>TODO LIST APP.</h1>
+
+    <div>
+      <form id="todo-form">
+        <input id="todoInput" type="text" name="todo" placeholder="Enter Your Todo">
+        <input id="sumbit-button" type="submit">
+      </form>
+
+      <form id="edit-form">
+        <input id="todoEditInput" type="text" name="todo" placeholder="Enter Your Todo">
+        <input type="text" hidden id="todo-id">
+        <input id="update-button" type="button" value="Update">
+      </form>
+    </div>
+
+    <div class="todos" id="todos">
+
+    </div>
+   </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>Copyrights &copy; Elshafie 2024</p>
+    </div>
+  </footer>
+
+
+  <script src="./js/index.js"></script>
+</body>
+</html>
